@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+.notification-container {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 250px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.notification-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.notification-container ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-container ul li:last-child {
+    border-bottom: none;
+}
+
+.notification-container ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.shop-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.book-section, .daily-deals, .trending-books {
+    padding: 20px;
+    text-align: center;
+}
+
+.book-list, .deal-list, .trend-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book-item, .deal-item, .trend-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+}
+
+.book-item img, .deal-item img, .trend-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
